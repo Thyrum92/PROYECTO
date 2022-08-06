@@ -242,6 +242,13 @@ h5 {
 .fontRec {
     color: whitesmoke;
 }
+.fontRec:hover {
+    color: blue;
+    text-shadow: 3px;
+}
+.fontProx {
+    color: whitesmoke;
+}
 .center {
     text-align: center;
     padding: 0 0 30px 0;
@@ -325,6 +332,48 @@ h5 {
 .flexQs {
     flex-direction: column;
     -ms-flex-align: center;
+}
+
+/** Hover **/
+
+.menu {
+    transition: all;
+}
+
+.menu:hover {
+    color: blue;
+    background-color: darkorange;
+    
+}
+
+/** Animaciones **/
+
+.tituloAnimado {
+    animation-name: titulo;
+    animation-duration: 1s;
+}
+
+@keyframes titulo {
+    from {
+        transform: translateX(700px);
+    }
+    to [
+        transform: translateX(0px)
+    ]
+}
+
+.subTitAnimado {
+    animation-name: subtitulo;
+    animation-duration: 1s;
+}
+
+@keyframes subtitulo {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 }
@@ -549,6 +598,13 @@ h5 {
 .fontRec {
     color: whitesmoke;
 }
+.fontRec:hover {
+    color: blue;
+    text-shadow: 3px;
+}
+.fontProx {
+    color: whitesmoke;
+}
 .center {
     text-align: center;
     padding: 0 0 30px 0;
@@ -632,6 +688,48 @@ h5 {
 .flexQs {
     flex-direction: column;
     -ms-flex-align: center;
+}
+
+/** Hover **/
+
+.menu {
+    transition: all;
+}
+
+.menu:hover {
+    color: blue;
+    background-color: darkorange;
+    
+}
+
+/** Animaciones **/
+
+.tituloAnimado {
+    animation-name: titulo;
+    animation-duration: 1s;
+}
+
+@keyframes titulo {
+    from {
+        transform: translateX(1300px);
+    }
+    to [
+        transform: translateX(0px)
+    ]
+}
+
+.subTitAnimado {
+    animation-name: subtitulo;
+    animation-duration: 1s;
+}
+
+@keyframes subtitulo {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 }
@@ -848,6 +946,13 @@ h5 {
 .fontRec {
     color: whitesmoke;
 }
+.fontRec:hover {
+    color: blue;
+    text-shadow: 3px;
+}
+.fontProx {
+    color: whitesmoke;
+}
 .center {
     text-align: center;
 }
@@ -930,6 +1035,48 @@ h5 {
 }
 .marginP2 {
     margin: 100px 0 45px 45px;
+}
+
+/** Hover **/
+
+.menu {
+    transition: all;
+}
+
+.menu:hover {
+    color: blue;
+    background-color: darkorange;
+    
+}
+
+/** Animaciones **/
+
+.tituloAnimado {
+    animation-name: titulo;
+    animation-duration: 1s;
+}
+
+@keyframes titulo {
+    from {
+        transform: translateX(2000px);
+    }
+    to [
+        transform: translateX(0px)
+    ]
+}
+
+.subTitAnimado {
+    animation-name: subtitulo;
+    animation-duration: 1s;
+}
+
+@keyframes subtitulo {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 }
