@@ -107,12 +107,13 @@ h5 {
 
 .gridNav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: darkred;
     padding: 15px;
     align-content: space-between;
     list-style-type: none;
+    justify-items: center;
 }
 .boxLi {
     border: solid black;
@@ -120,6 +121,7 @@ h5 {
     color: yellowgreen;
     width: 100px;
     padding: 10px 0 10px 0 ;
+    margin: 5px 0 5px 0;
     text-align: center;
     font-size: 14px;
 }
