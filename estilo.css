@@ -357,9 +357,9 @@ h5 {
     from {
         transform: translateX(700px);
     }
-    to [
+    to {
         transform: translateX(0px)
-    ]
+    }
 }
 
 .subTitAnimado {
@@ -375,7 +375,6 @@ h5 {
         transform: translateX(0);
     }
 }
-
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
@@ -713,9 +712,9 @@ h5 {
     from {
         transform: translateX(1300px);
     }
-    to [
+    to {
         transform: translateX(0px)
-    ]
+    }
 }
 
 .subTitAnimado {
@@ -1060,9 +1059,9 @@ h5 {
     from {
         transform: translateX(2000px);
     }
-    to [
+    to {
         transform: translateX(0px)
-    ]
+    }
 }
 
 .subTitAnimado {
